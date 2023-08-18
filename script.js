@@ -1,7 +1,9 @@
 
-var lastN=document.getElementById("form1").value;
+
 function getFormvalue() {
     //Write your code here
-	alert(lastN);
+	var firstN=document.getElementById("form2").value;
+	var lastN=document.getElementById("form").value;
+	alert(firstN +" "+ lastN);
 
 }
